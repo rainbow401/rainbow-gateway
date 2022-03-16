@@ -1,0 +1,219 @@
+2022-03-16 13:12:15.874|gateway|dev|INFO |background-preinit|org.hibernate.validator.internal.util.Version:<clinit>:21| - HV000001: Hibernate Validator 6.1.6.Final
+2022-03-16 13:12:15.943|gateway|dev|INFO |restartedMain|org.springframework.boot.logging.DeferredLog:logTo:225| - The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2022-03-16 13:12:15.943|gateway|dev|INFO |restartedMain|org.springframework.boot.logging.DeferredLog:logTo:225| - The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar
+2022-03-16 13:12:15.944|gateway|dev|INFO |restartedMain|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:12:16.475|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor:<clinit>:212| - LOCAL_SNAPSHOT_PATH:C:\Users\lenovo\nacos\config
+2022-03-16 13:12:16.605|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.Limiter:<clinit>:54| - limitTime:5.0
+2022-03-16 13:12:16.653|gateway|dev|WARN |restartedMain|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2022-03-16 13:12:16.659|gateway|dev|WARN |restartedMain|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway.yml] & group[DEFAULT_GROUP]
+2022-03-16 13:12:16.671|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.utils.JvmUtil:<clinit>:49| - isMultiInstance:false
+2022-03-16 13:12:16.682|gateway|dev|INFO |restartedMain|org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:initialize:112| - Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2022-03-16 13:12:16.687|gateway|dev|INFO |restartedMain|org.springframework.boot.SpringApplication:logStartupProfileInfo:655| - The following profiles are active: dev
+2022-03-16 13:12:17.496|gateway|dev|WARN |restartedMain|org.springframework.boot.actuate.endpoint.EndpointId:logWarning:155| - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-03-16 13:12:17.500|gateway|dev|WARN |restartedMain|org.springframework.boot.actuate.endpoint.EndpointId:logWarning:155| - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-03-16 13:12:17.682|gateway|dev|WARN |restartedMain|org.springframework.boot.actuate.endpoint.EndpointId:logWarning:155| - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-03-16 13:12:17.805|gateway|dev|INFO |restartedMain|org.springframework.cloud.context.scope.GenericScope:setSerializationId:295| - BeanFactory id=7cfe5910-69fa-3c3a-b918-209b5b33caa6
+2022-03-16 13:12:17.838|gateway|dev|INFO |restartedMain|org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:335| - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-16 13:12:17.840|gateway|dev|INFO |restartedMain|org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:335| - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-16 13:12:17.842|gateway|dev|INFO |restartedMain|org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:335| - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-16 13:12:18.005|gateway|dev|WARN |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:121| - No URLs will be polled as dynamic configuration sources.
+2022-03-16 13:12:18.005|gateway|dev|INFO |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:122| - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-16 13:12:18.012|gateway|dev|WARN |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:121| - No URLs will be polled as dynamic configuration sources.
+2022-03-16 13:12:18.012|gateway|dev|INFO |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:122| - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-16 13:12:18.269|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.utils.InitUtils$1:call:64| - initializer namespace from System Property :null
+2022-03-16 13:12:18.269|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.utils.InitUtils$2:call:73| - initializer namespace from System Environment :null
+2022-03-16 13:12:18.270|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.utils.InitUtils$3:call:83| - initializer namespace from System Property :null
+2022-03-16 13:12:18.843|gateway|dev|INFO |restartedMain|org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration:getOrDeducePassword:88| - 
+
+Using generated security password: 8a4f6da1-76a6-43fa-934a-e579bad25617
+
+2022-03-16 13:12:18.955|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [After]
+2022-03-16 13:12:18.955|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Before]
+2022-03-16 13:12:18.956|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Between]
+2022-03-16 13:12:18.956|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Cookie]
+2022-03-16 13:12:18.956|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Header]
+2022-03-16 13:12:18.956|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Host]
+2022-03-16 13:12:18.956|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Method]
+2022-03-16 13:12:18.956|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Path]
+2022-03-16 13:12:18.956|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Query]
+2022-03-16 13:12:18.957|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [ReadBody]
+2022-03-16 13:12:18.957|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-16 13:12:18.957|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Weight]
+2022-03-16 13:12:18.957|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-16 13:12:19.429|gateway|dev|INFO |restartedMain|org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:<init>:58| - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-16 13:12:19.673|gateway|dev|WARN |restartedMain|org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:startServer:61| - Unable to start LiveReload server
+2022-03-16 13:12:19.810|gateway|dev|WARN |restartedMain|org.springframework.cloud.security.oauth2.SpringCloudSecurityAutoConfiguration:<init>:38| - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-03-16 13:12:19.912|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.EventDispatcher:addListener:83| - [LISTENER] adding DEFAULT_GROUP@@gateway with DEFAULT to listener map
+2022-03-16 13:12:20.135|gateway|dev|WARN |restartedMain|org.springframework.context.support.AbstractApplicationContext:refresh:559| - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2022-03-16 13:12:20.141|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.beat.BeatReactor:shutdown:147| - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2022-03-16 13:12:20.141|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.beat.BeatReactor:shutdown:149| - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2022-03-16 13:12:20.142|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.EventDispatcher:shutdown:149| - com.alibaba.nacos.client.naming.core.EventDispatcher do shutdown begin
+2022-03-16 13:12:20.373|gateway|dev|INFO |com.alibaba.nacos.naming.push.receiver|com.alibaba.nacos.client.naming.core.PushReceiver:run:86| - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@gateway\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1647407540371,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":11317941111800} from /172.23.32.1
+2022-03-16 13:12:23.173|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.EventDispatcher:shutdown:152| - com.alibaba.nacos.client.naming.core.EventDispatcher do shutdown stop
+2022-03-16 13:12:23.173|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.HostReactor:shutdown:363| - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2022-03-16 13:12:26.187|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.PushReceiver:shutdown:118| - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2022-03-16 13:12:29.217|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.PushReceiver:shutdown:122| - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2022-03-16 13:12:29.218|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.backups.FailoverReactor:shutdown:132| - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2022-03-16 13:12:29.218|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.backups.FailoverReactor:shutdown:134| - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2022-03-16 13:12:29.219|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.HostReactor:shutdown:367| - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2022-03-16 13:12:29.219|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.net.NamingProxy:shutdown:715| - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2022-03-16 13:12:29.220|gateway|dev|WARN |restartedMain|com.alibaba.nacos.client.naming.net.NamingHttpClientManager:shutdown:71| - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2022-03-16 13:12:29.220|gateway|dev|WARN |restartedMain|com.alibaba.nacos.client.naming.net.NamingHttpClientManager:shutdown:78| - [NamingHttpClientManager] Destruction of the end
+2022-03-16 13:12:29.220|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.net.NamingProxy:shutdown:718| - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2022-03-16 13:12:29.220|gateway|dev|ERROR|com.alibaba.nacos.naming.push.receiver|com.alibaba.nacos.client.naming.core.PushReceiver:run:110| - [NA] error while receiving push data
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+	at java.net.DatagramSocket.receive(DatagramSocket.java:812)
+	at com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:83)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-03-16 13:12:31.310|gateway|dev|INFO |restartedMain|org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:logMessage:136| - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-16 13:12:31.314|gateway|dev|ERROR|restartedMain|org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:report:40| - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2022-03-16 13:13:07.779|gateway|dev|INFO |background-preinit|org.hibernate.validator.internal.util.Version:<clinit>:21| - HV000001: Hibernate Validator 6.1.6.Final
+2022-03-16 13:13:07.847|gateway|dev|INFO |restartedMain|org.springframework.boot.logging.DeferredLog:logTo:225| - The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar
+2022-03-16 13:13:07.848|gateway|dev|INFO |restartedMain|org.springframework.boot.logging.DeferredLog:logTo:225| - The Class-Path manifest attribute in C:\Users\lenovo\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/lenovo/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar
+2022-03-16 13:13:07.848|gateway|dev|INFO |restartedMain|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:13:08.343|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor:<clinit>:212| - LOCAL_SNAPSHOT_PATH:C:\Users\lenovo\nacos\config
+2022-03-16 13:13:08.465|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.Limiter:<clinit>:54| - limitTime:5.0
+2022-03-16 13:13:08.495|gateway|dev|WARN |restartedMain|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2022-03-16 13:13:08.501|gateway|dev|WARN |restartedMain|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway.yml] & group[DEFAULT_GROUP]
+2022-03-16 13:13:08.505|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.utils.JvmUtil:<clinit>:49| - isMultiInstance:false
+2022-03-16 13:13:08.516|gateway|dev|INFO |restartedMain|org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:initialize:112| - Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2022-03-16 13:13:08.520|gateway|dev|INFO |restartedMain|org.springframework.boot.SpringApplication:logStartupProfileInfo:655| - The following profiles are active: dev
+2022-03-16 13:13:09.279|gateway|dev|WARN |restartedMain|org.springframework.boot.actuate.endpoint.EndpointId:logWarning:155| - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+2022-03-16 13:13:09.284|gateway|dev|WARN |restartedMain|org.springframework.boot.actuate.endpoint.EndpointId:logWarning:155| - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-03-16 13:13:09.453|gateway|dev|WARN |restartedMain|org.springframework.boot.actuate.endpoint.EndpointId:logWarning:155| - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-03-16 13:13:09.564|gateway|dev|INFO |restartedMain|org.springframework.cloud.context.scope.GenericScope:setSerializationId:295| - BeanFactory id=7cfe5910-69fa-3c3a-b918-209b5b33caa6
+2022-03-16 13:13:09.599|gateway|dev|INFO |restartedMain|org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:335| - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-16 13:13:09.601|gateway|dev|INFO |restartedMain|org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:335| - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-16 13:13:09.602|gateway|dev|INFO |restartedMain|org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:postProcessAfterInitialization:335| - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-16 13:13:09.794|gateway|dev|WARN |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:121| - No URLs will be polled as dynamic configuration sources.
+2022-03-16 13:13:09.794|gateway|dev|INFO |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:122| - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-16 13:13:09.801|gateway|dev|WARN |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:121| - No URLs will be polled as dynamic configuration sources.
+2022-03-16 13:13:09.801|gateway|dev|INFO |restartedMain|com.netflix.config.sources.URLConfigurationSource:<init>:122| - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-03-16 13:13:10.052|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.utils.InitUtils$1:call:64| - initializer namespace from System Property :null
+2022-03-16 13:13:10.052|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.utils.InitUtils$2:call:73| - initializer namespace from System Environment :null
+2022-03-16 13:13:10.053|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.utils.InitUtils$3:call:83| - initializer namespace from System Property :null
+2022-03-16 13:13:10.573|gateway|dev|INFO |restartedMain|org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration:getOrDeducePassword:88| - 
+
+Using generated security password: 9eb45b21-6c2b-4df6-9ea9-3efddbb5be6d
+
+2022-03-16 13:13:10.654|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [After]
+2022-03-16 13:13:10.654|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Before]
+2022-03-16 13:13:10.654|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Between]
+2022-03-16 13:13:10.655|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Cookie]
+2022-03-16 13:13:10.655|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Header]
+2022-03-16 13:13:10.655|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Host]
+2022-03-16 13:13:10.655|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Method]
+2022-03-16 13:13:10.655|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Path]
+2022-03-16 13:13:10.656|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Query]
+2022-03-16 13:13:10.656|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [ReadBody]
+2022-03-16 13:13:10.656|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [RemoteAddr]
+2022-03-16 13:13:10.657|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [Weight]
+2022-03-16 13:13:10.657|gateway|dev|INFO |restartedMain|org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator:lambda$initFactories$2:139| - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2022-03-16 13:13:11.028|gateway|dev|INFO |restartedMain|org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:<init>:58| - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-03-16 13:13:11.242|gateway|dev|WARN |restartedMain|org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:startServer:61| - Unable to start LiveReload server
+2022-03-16 13:13:11.361|gateway|dev|WARN |restartedMain|org.springframework.cloud.security.oauth2.SpringCloudSecurityAutoConfiguration:<init>:38| - All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-03-16 13:13:11.459|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.core.EventDispatcher:addListener:83| - [LISTENER] adding DEFAULT_GROUP@@gateway with DEFAULT to listener map
+2022-03-16 13:13:11.650|gateway|dev|INFO |restartedMain|org.springframework.boot.web.embedded.netty.NettyWebServer:start:109| - Netty started on port(s): 19090
+2022-03-16 13:13:11.655|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.beat.BeatReactor:addBeatInfo:81| - [BEAT] adding beat: BeatInfo{port=19090, ip='172.16.13.56', weight=1.0, serviceName='DEFAULT_GROUP@@gateway', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2022-03-16 13:13:11.658|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.naming.net.NamingProxy:registerService:223| - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@gateway with instance: Instance{instanceId='null', ip='172.16.13.56', port=19090, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2022-03-16 13:13:11.663|gateway|dev|INFO |restartedMain|com.alibaba.cloud.nacos.registry.NacosServiceRegistry:register:71| - nacos registry, DEFAULT_GROUP gateway 172.16.13.56:19090 register finished
+2022-03-16 13:13:11.869|gateway|dev|INFO |restartedMain|org.springframework.boot.StartupInfoLogger:logStarted:61| - Started GatewayApplication in 4.732 seconds (JVM running for 5.426)
+2022-03-16 13:13:11.873|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.ClientWorker:addCacheDataIfAbsent:262| - [fixed-127.0.0.1_8848] [subscribe] gateway.yml+DEFAULT_GROUP
+2022-03-16 13:13:11.874|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.CacheData:addListener:93| - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=gateway.yml, group=DEFAULT_GROUP, cnt=1
+2022-03-16 13:13:11.874|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.ClientWorker:addCacheDataIfAbsent:262| - [fixed-127.0.0.1_8848] [subscribe] gateway+DEFAULT_GROUP
+2022-03-16 13:13:11.875|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.CacheData:addListener:93| - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=gateway, group=DEFAULT_GROUP, cnt=1
+2022-03-16 13:13:11.876|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.ClientWorker:addCacheDataIfAbsent:262| - [fixed-127.0.0.1_8848] [subscribe] gateway-dev.yml+DEFAULT_GROUP
+2022-03-16 13:13:11.876|gateway|dev|INFO |restartedMain|com.alibaba.nacos.client.config.impl.CacheData:addListener:93| - [fixed-127.0.0.1_8848] [add-listener] ok, tenant=, dataId=gateway-dev.yml, group=DEFAULT_GROUP, cnt=1
+2022-03-16 13:13:11.973|gateway|dev|INFO |com.alibaba.nacos.naming.push.receiver|com.alibaba.nacos.client.naming.core.PushReceiver:run:86| - received push data: {"type":"dom","data":"{\"name\":\"DEFAULT_GROUP@@gateway\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"172.16.13.56#19090#DEFAULT#DEFAULT_GROUP@@gateway\",\"ip\":\"172.16.13.56\",\"port\":19090,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"DEFAULT_GROUP@@gateway\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1647407591970,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":11369540027400} from /172.23.32.1
+2022-03-16 13:13:11.986|gateway|dev|INFO |com.alibaba.nacos.naming.push.receiver|com.alibaba.nacos.client.naming.core.HostReactor:processServiceJson:190| - new ips(1) service: DEFAULT_GROUP@@gateway@@DEFAULT -> [{"instanceId":"172.16.13.56#19090#DEFAULT#DEFAULT_GROUP@@gateway","ip":"172.16.13.56","port":19090,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-03-16 13:13:11.990|gateway|dev|INFO |com.alibaba.nacos.naming.push.receiver|com.alibaba.nacos.client.naming.core.HostReactor:processServiceJson:227| - current ips:(1) service: DEFAULT_GROUP@@gateway@@DEFAULT -> [{"instanceId":"172.16.13.56#19090#DEFAULT#DEFAULT_GROUP@@gateway","ip":"172.16.13.56","port":19090,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2022-03-16 13:14:48.004|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker:parseUpdateDataIdResponse:510| - [fixed-127.0.0.1_8848] [polling-resp] config changed. dataId=gateway-dev.yml, group=DEFAULT_GROUP
+2022-03-16 13:14:48.004|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable:run:622| - get changedGroupKeys:[gateway-dev.yml+DEFAULT_GROUP]
+2022-03-16 13:14:48.018|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable:run:640| - [fixed-127.0.0.1_8848] [data-received] dataId=gateway-dev.yml, group=DEFAULT_GROUP, tenant=null, md5=f9ebaa90d69d21d51d491c621e361315, content=server:
+  port: 19091
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    discovery:
+      regist..., type=yaml
+2022-03-16 13:14:48.018|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData$1:run:199| - [fixed-127.0.0.1_8848] [notify-context] dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=f9ebaa90d69d21d51d491c621e361315
+2022-03-16 13:14:48.171|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:14:48.329|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:14:48.337|gateway|dev|WARN |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2022-03-16 13:14:48.340|gateway|dev|WARN |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway.yml] & group[DEFAULT_GROUP]
+2022-03-16 13:14:48.344|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:initialize:112| - Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2022-03-16 13:14:48.346|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.SpringApplication:logStartupProfileInfo:655| - The following profiles are active: dev
+2022-03-16 13:14:48.355|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.StartupInfoLogger:logStarted:61| - Started application in 0.331 seconds (JVM running for 101.912)
+2022-03-16 13:14:48.470|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.cloud.endpoint.event.RefreshEventListener:handle:73| - Refresh keys changed: [server.port]
+2022-03-16 13:14:48.470|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData$1:run:222| - [fixed-127.0.0.1_8848] [notify-ok] dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=f9ebaa90d69d21d51d491c621e361315, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6eacfbc1 
+2022-03-16 13:14:48.470|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData:safeNotifyListener:248| - [fixed-127.0.0.1_8848] [notify-listener] time cost=452ms in ClientWorker, dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=f9ebaa90d69d21d51d491c621e361315, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6eacfbc1 
+2022-03-16 13:15:33.618|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker:parseUpdateDataIdResponse:510| - [fixed-127.0.0.1_8848] [polling-resp] config changed. dataId=gateway-dev.yml, group=DEFAULT_GROUP
+2022-03-16 13:15:33.618|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable:run:622| - get changedGroupKeys:[gateway-dev.yml+DEFAULT_GROUP]
+2022-03-16 13:15:33.624|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable:run:640| - [fixed-127.0.0.1_8848] [data-received] dataId=gateway-dev.yml, group=DEFAULT_GROUP, tenant=null, md5=52e8a0859f1352446f04632af7398267, content=server:
+  port: 19090
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    discovery:
+      regist..., type=yaml
+2022-03-16 13:15:33.625|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData$1:run:199| - [fixed-127.0.0.1_8848] [notify-context] dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=52e8a0859f1352446f04632af7398267
+2022-03-16 13:15:33.777|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:15:33.932|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:15:33.954|gateway|dev|WARN |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2022-03-16 13:15:33.957|gateway|dev|WARN |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway.yml] & group[DEFAULT_GROUP]
+2022-03-16 13:15:33.962|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:initialize:112| - Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2022-03-16 13:15:33.963|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.SpringApplication:logStartupProfileInfo:655| - The following profiles are active: dev
+2022-03-16 13:15:33.973|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.StartupInfoLogger:logStarted:61| - Started application in 0.341 seconds (JVM running for 147.53)
+2022-03-16 13:15:34.049|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.cloud.endpoint.event.RefreshEventListener:handle:73| - Refresh keys changed: [server.port]
+2022-03-16 13:15:34.049|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData$1:run:222| - [fixed-127.0.0.1_8848] [notify-ok] dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=52e8a0859f1352446f04632af7398267, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6eacfbc1 
+2022-03-16 13:15:34.049|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData:safeNotifyListener:248| - [fixed-127.0.0.1_8848] [notify-listener] time cost=424ms in ClientWorker, dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=52e8a0859f1352446f04632af7398267, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6eacfbc1 
+2022-03-16 13:22:40.238|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker:parseUpdateDataIdResponse:510| - [fixed-127.0.0.1_8848] [polling-resp] config changed. dataId=gateway-dev.yml, group=DEFAULT_GROUP
+2022-03-16 13:22:40.238|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable:run:622| - get changedGroupKeys:[gateway-dev.yml+DEFAULT_GROUP]
+2022-03-16 13:22:40.242|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable:run:640| - [fixed-127.0.0.1_8848] [data-received] dataId=gateway-dev.yml, group=DEFAULT_GROUP, tenant=null, md5=c7accb00e61f8d7557b6ec0de70a349a, content=server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    discovery:
+      registe..., type=yaml
+2022-03-16 13:22:40.242|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData$1:run:199| - [fixed-127.0.0.1_8848] [notify-context] dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=c7accb00e61f8d7557b6ec0de70a349a
+2022-03-16 13:22:40.462|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:22:40.714|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.logging.DeferredLog:logTo:225| - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-16 13:22:40.727|gateway|dev|WARN |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2022-03-16 13:22:40.737|gateway|dev|WARN |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder:loadNacosData:87| - Ignore the empty nacos configuration and get it based on dataId[gateway.yml] & group[DEFAULT_GROUP]
+2022-03-16 13:22:40.743|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration:initialize:112| - Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2022-03-16 13:22:40.744|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.SpringApplication:logStartupProfileInfo:655| - The following profiles are active: dev
+2022-03-16 13:22:40.756|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.boot.StartupInfoLogger:logStarted:61| - Started application in 0.509 seconds (JVM running for 574.313)
+2022-03-16 13:22:40.837|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|org.springframework.cloud.endpoint.event.RefreshEventListener:handle:73| - Refresh keys changed: [server.port]
+2022-03-16 13:22:40.837|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData$1:run:222| - [fixed-127.0.0.1_8848] [notify-ok] dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=c7accb00e61f8d7557b6ec0de70a349a, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6eacfbc1 
+2022-03-16 13:22:40.837|gateway|dev|INFO |com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848|com.alibaba.nacos.client.config.impl.CacheData:safeNotifyListener:248| - [fixed-127.0.0.1_8848] [notify-listener] time cost=595ms in ClientWorker, dataId=gateway-dev.yml, group=DEFAULT_GROUP, md5=c7accb00e61f8d7557b6ec0de70a349a, listener=com.alibaba.cloud.nacos.refresh.NacosContextRefresher$1@6eacfbc1 
