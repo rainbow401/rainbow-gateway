@@ -29,4 +29,3 @@ build/
 logs/
 ### VS Code ###
 .vscode/
-/logs
