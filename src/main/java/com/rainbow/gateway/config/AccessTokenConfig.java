@@ -22,7 +22,6 @@ public class AccessTokenConfig {
 
     /**
      * 配置JWT令牌使用非对称加密方式来验证
-     * @return
      */
     @Bean
     protected JwtAccessTokenConverter jwtAccessTokenConverter() {

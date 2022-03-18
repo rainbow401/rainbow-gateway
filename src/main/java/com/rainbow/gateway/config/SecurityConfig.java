@@ -2,15 +2,14 @@ package com.rainbow.gateway.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.ReactiveAuthenticationManager;
-import org.springframework.security.config.annotation.method.configuration.EnableReactiveMethodSecurity;
 import org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity;
 import org.springframework.security.config.web.server.SecurityWebFiltersOrder;
 import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.oauth2.server.resource.web.server.ServerBearerTokenAuthenticationConverter;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 import org.springframework.security.web.server.authentication.AuthenticationWebFilter;
+import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.filter.CorsFilter;
 
 /**
@@ -29,8 +28,11 @@ public class SecurityConfig {
     @Autowired
     private ReactiveAuthenticationManager tokenAuthenticationManager;
 
-//    @Autowired
-//    private CorsFilter corsFilter;
+    @Autowired
+    private CorsWebFilter corsWebFilter;
+
+    @Autowired
+    private SysConfig sysConfig;
 
     @Bean
     public SecurityWebFilterChain webFluxSecurityConfiguration(ServerHttpSecurity http) {
@@ -40,14 +42,14 @@ public class SecurityConfig {
         http.httpBasic().disable()
                 .csrf().disable()
                 .authorizeExchange()
-                .pathMatchers("/auth/oauth/token/**","/auth/oauth/check_token/**")
+                .pathMatchers(sysConfig.getIgnoreUrlList().toArray(new String[0]))
                 .permitAll()
 //                .anyExchange().access()
                 .and().exceptionHandling()
                 .authenticationEntryPoint(requestAuthenticationEntryPoint)
 //                .accessDeniedHandler()
                 .and()
-//                .addFilterAt((WebFilter) corsFilter, SecurityWebFiltersOrder.CORS)
+                .addFilterAt(corsWebFilter, SecurityWebFiltersOrder.CORS)
                 .addFilterAt(authenticationWebFilter, SecurityWebFiltersOrder.AUTHENTICATION);
 
         return http.build();

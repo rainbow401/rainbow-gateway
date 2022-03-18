@@ -43,7 +43,6 @@ public class GlobalErrorExceptionHandler implements ErrorWebExceptionHandler {
         Result finalResult = result;
         return response.writeWith(Mono.fromSupplier(() -> {
             DataBufferFactory bufferFactory = response.bufferFactory();
-
             try {
                 return bufferFactory.wrap(finalResult.toString().getBytes(StandardCharsets.UTF_8));
             } catch (Exception e) {
