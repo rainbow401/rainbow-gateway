@@ -31,4 +31,9 @@ public class CommonConstants {
      * 请求调用结束时间
      */
     public static final String END_TIME = "end_time";
+
+    /**
+     * 用户信息
+     */
+    public static final String USER_DETAIL = "user_detail";
 }
